@@ -21,8 +21,9 @@ Blue | 4
 2 of each color, so `1` or `2`
 
 * To turn lights off:
-|Number|Action|
-|0|Turn specified color off|
-|8|Turn all lights off|
+Number | Action
+------ | ------
+0|Turn specified color off
+8|Turn all lights off
 
 
