@@ -11,12 +11,12 @@ The theory is, I hit a number sequence on the keypad connected to my main Pi, ne
 1. I hit a number to specify the light color
 2. Then, a number to specify which of that color to light
 Here, a fancy chart:
-| Light Color | Number |
-| ----------- | ------ |
-| Red | 1 |
-| Yellow | 2 |
-| Green | 3 |
-| Blue | 4 |
+Light Color | Number
+----------- | ------
+Red | 1
+Yellow | 2
+Green | 3
+Blue | 4
 2 of each color, so `1` or `2`
 
 * To turn lights off:
