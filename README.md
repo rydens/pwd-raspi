@@ -11,6 +11,7 @@ The theory is, I hit a number sequence on the keypad connected to my main Pi, ne
 1. I hit a number to specify the light color
 2. Then, a number to specify which of that color to light
 Here, a fancy chart:
+
 Light Color | Number
 ----------- | ------
 Red | 1
