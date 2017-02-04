@@ -1,2 +1,3 @@
 # pwd-raspi
-My awesome remote control system for my Pine Wood Derby car
+My awesome remote control system for my Pinewood Derby car
+
