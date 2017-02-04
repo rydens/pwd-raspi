@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+# A script to connect to the onboard Pi, and open the dtach running the program.
+# Must run on boot, so I can do things faster.
