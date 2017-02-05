@@ -29,3 +29,14 @@ Number | Action
 8|Turn all lights off
 
 
+#### Or...
+Since there are 8 lights, a number on the keypad corresponds to each light, and a push turns it on/off, depending on its previous state.
+Press `0` to turn all off.
+
+*hmmm*
+
+# Dependancies
+* [py-getch](https://github.com/joeyespo/py-getch)
+* `dtach`
+* python3 (duh)
+* ssh

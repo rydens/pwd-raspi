@@ -1,2 +1,6 @@
 #!/usr/bin/env python3
 # The main file for the onboard Pi, needs to run on boot as a dtach
+import RPi.GPIO as GPIO
+import os
+import skilstak.colors as c
+from getch import getch
