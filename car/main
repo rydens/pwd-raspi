@@ -4,3 +4,13 @@ import RPi.GPIO as GPIO
 import os
 import skilstak.colors as c
 from getch import getch
+
+pins = []	# The GPIO pin numbers to set up
+
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setop(pins, GPIO.OUT)
+
+while True:
+	key = getch()
+	
