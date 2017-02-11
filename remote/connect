@@ -4,7 +4,7 @@ import os
 # Make sure SSH keys are set up, so you don't need a password.
 # Must run on boot, so I can do things faster.
 
-ip = "192.168.0.113"
+ip = "10.0.0.111"
 # The internal ip for the onboard Pi
 
 dtach_name = "pwd_dtach"
