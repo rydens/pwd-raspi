@@ -82,6 +82,7 @@ while True:
 			GPIO.output(pins[7],0)
 			b2 = 0
 	elif key == '\x03':
+		GPIO.cleanup()
 		raise KeyboardInterrupt()
 
 	
