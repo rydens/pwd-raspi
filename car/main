@@ -82,7 +82,7 @@ while True:
 			GPIO.output(pins[7],0)
 			b2 = 0
 	elif key == "0":
-		if 1 in pins:
+		if r1 == 1 or r2 == 1 or y1 == 1 or y2 == 1 or g1 == 1 or g2 == 1 or b1 == 1 or b2 == 1:
 			GPIO.output(pins,0)
 			r1 = 0
 			r2 = 0
