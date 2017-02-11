@@ -11,4 +11,4 @@ dtach_name = "pwd_dtach"
 # The name of the dtach socket running the main program
 
 
-os.system('ssh ' + ip + ' "dtach -a ' + dtach_name + '"')	# Needs SSH keys!
+os.system('ssh pi@' + ip) # + '"dtach -a ' + dtach_name + '"')	# Needs SSH keys!
