@@ -4,10 +4,10 @@ import os
 # Make sure SSH keys are set up, so you don't need a password.
 # Must run on boot, so I can do things faster.
 
-ip = ""
+ip = "ryanszero.local"
 # The internal ip for the onboard Pi
 
-dtach_name = ""
+dtach_name = "pwd_dtach"
 # The name of the dtach socket running the main program
 
 
