@@ -5,7 +5,7 @@ import os
 import skilstak.colors as c
 from getch import getch
 
-pins = [4,17,22,24,5,13,12,16]	# The GPIO pin numbers to set up
+pins = [4,17,22,23,5,13,12,16]	# The GPIO pin numbers to set up
 
 
 # Set up the LED pins for output
