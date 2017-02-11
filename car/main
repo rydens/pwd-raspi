@@ -50,7 +50,7 @@ while True:
 		if y2 == 0:
 			GPIO.output(pins[3],1)
 			y2 = 1
-		elif r1 == 1:
+		elif y2 = 1:
 			GPIO.output(pins[3],0)
 			y2 = 0
 	elif key == "8":
