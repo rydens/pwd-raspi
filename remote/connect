@@ -1,14 +1,11 @@
-#!/usr/bin/env python3
-import os
-# A script to connect to the onboard Pi, and open the dtach running the program.
+#!/bin/sh
+
+# A script to connect to the onboard Pi, which has a line in it's bashrc to run the main program once logged in.
 # Make sure SSH keys are set up, so you don't need a password.
 # Must run on boot, so I can do things faster.
 
-ip = "10.0.0.111"
+ip="#Place IP Here!"
+port="22"
 # The internal ip for the onboard Pi
 
-dtach_name = "pwd_dtach"
-# The name of the dtach socket running the main program
-
-
-os.system('ssh pi@' + ip)	# Needs SSH keys!
+ssh pi@$ip -p $port	# Needs SSH keys!
