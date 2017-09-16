@@ -1,11 +1,12 @@
 # pwd-raspi
 My awesome remote control system for my Pinewood Derby car
 
+Completely re-written in Go! Because I feel like it and to make the
+connection system better.
+
 ![Pinewood Derby Logo](http://www.abc-pinewood-derby.com/images/pinewood-derby-logo.png)
 
 Yes, it's a Cub Scout thing. I'm a Boy Scout, I used to be a Cub Scout, but my brother still is a Cub. There's an open race that anyone can participate in, and since it's the last chance I'd get, I am going out with a bang. Rather, a flash.
-
-Not much in the `remote` directory, just a script that automatically `ssh`es to the Pi Zero on the car, and opens a `dtach` that is already running on there. The main program, that runs onboard the car, is in the `car` directory.
 
 The theory is, I hit a number sequence on the keypad connected to my main Pi, next to the track, something like this:
 
@@ -36,7 +37,5 @@ Press `0` to turn all off.
 *hmmm*
 
 # Dependancies
-* [py-getch](https://github.com/joeyespo/py-getch)
-* `dtach`
-* python3 (duh)
-* ssh
+Nah man
+
